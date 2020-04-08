@@ -12,8 +12,12 @@ class ElearningController extends AbstractController
      */
     public function index()
     {
+        $words = ['sky', 'cloud', 'wood', 'rock', 'forest',
+        'mountain', 'breeze', 'cat', 'dog'];
+
         return $this->render('elearning/index.html.twig', [
-            'controller_name' => 'ElearningController',
+            //'controller_name' => 'ElearningController',
+            'words' => $words
         ]);
     }
 }
