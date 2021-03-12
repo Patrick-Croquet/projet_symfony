@@ -1,6 +1,6 @@
 # projet_symfony
  Projet Symfony
-cd mon_site_symfony dans le terminale
+cd mon_site_symfony dans le terminal
 Etape 1 : composer install
 Etape 2 : npm install
 
